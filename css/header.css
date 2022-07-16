@@ -1,0 +1,58 @@
+button {
+    cursor: pointer;
+}
+#main-header {
+    top: 0;
+    /* position: absolute; */
+    width: 100%;
+    height: var(--header-hight);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* outline: 1px solid greenyellow; */
+    z-index:10;
+}
+
+
+
+#logo a img{
+    padding-top: 10px;
+}
+
+
+
+#gnb a, #gnb button{
+    color: #fff;
+    border-style: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 1em;
+
+}
+
+
+.bi{
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.bi-search{
+    font-size: 22px;
+}
+
+.bi-list {
+    font-size: 32px;
+  }
+  
+#gnb {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    color: #fff;
+}
